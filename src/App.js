@@ -7,6 +7,11 @@ import {Context} from "./index";
 import {check} from "./http/userApi";
 import {Spinner} from "react-bootstrap";
 
+/*
+Front-End is built completely on React and MobX
+ */
+
+
 const App = observer(() => {
     const {user} = useContext(Context)
     const [loading,setLoading] = useState(true)
